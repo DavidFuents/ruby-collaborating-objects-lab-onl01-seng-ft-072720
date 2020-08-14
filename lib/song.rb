@@ -20,8 +20,6 @@ class Song
     @name = song_info[1]
     song = self.new(@name)
     song.artist = @artist
-    binding.pry
-    true
     song
   end
   

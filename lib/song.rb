@@ -20,6 +20,7 @@ class Song
     song = self.new(song_info[1])
     artist_name(song_info[0])
     binding.pry
+    true
     song
   end
   

@@ -16,7 +16,7 @@ class Song
   
   def self.new_by_filename(file)
     song_info = 
-    @artist = split(" - ")[0]
+    @artist = file.split(" - ")[0]
     @name = song_info[1]
     song = self.new(@name)
     song.artist = @artist

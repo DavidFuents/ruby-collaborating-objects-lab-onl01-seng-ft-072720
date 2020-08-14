@@ -19,9 +19,8 @@ class Song
     # binding.pry
     song = self.new(song_info[1])
     artist_name(song_info[0])
-    song 
     binding.pry
-    true
+    song
   end
   
   def self.all

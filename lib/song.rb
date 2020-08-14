@@ -19,7 +19,7 @@ class Song
     @artist = song_info[0]
     @name = song_info[1]
     song = self.new(@name)
-    song.artist = @artist
+    artist_name(@artist)
   end
   
   def self.all

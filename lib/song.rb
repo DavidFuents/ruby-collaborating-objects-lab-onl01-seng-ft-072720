@@ -16,7 +16,6 @@ class Song
   
   def self.new_by_filename(file)
     song_info = file.chomp(".mp3").split(" - ")
-    binding.pry 
     @artist = song_info[0]
     @name = song_info[1]
     song = self.new(@name)

@@ -19,7 +19,7 @@ class Song
     @artist = song_info[0]
     @name = song_info[1]
     song = self.new(@name)
-    artist_name(song_info[0])
+    song.artist = @artist
     binding.pry
     true
     song

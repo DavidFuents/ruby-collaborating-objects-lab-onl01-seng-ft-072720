@@ -15,8 +15,8 @@ class Song
   end
   
   def self.new_by_filename(file)
-    song_info = file.chomp(".mp3").split(" - ")
-    @artist = song_info[0]
+    song_info = 
+    @artist = split(" - ")[0]
     @name = song_info[1]
     song = self.new(@name)
     song.artist = @artist

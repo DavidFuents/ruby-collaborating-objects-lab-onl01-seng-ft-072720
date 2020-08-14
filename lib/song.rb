@@ -16,7 +16,6 @@ class Song
   
   def self.new_by_filename(file)
     song_info = file.chomp(".mp3").split(" - ")
-    # binding.pry
     song = self.new(song_info[1])
     artist_name(song_info[0])
     binding.pry

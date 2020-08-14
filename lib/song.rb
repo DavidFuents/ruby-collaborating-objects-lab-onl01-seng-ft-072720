@@ -20,6 +20,7 @@ class Song
     @name = song_info[1]
     song = self.new(@name)
     artist_name(@artist)
+    song
   end
   
   def self.all

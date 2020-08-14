@@ -20,7 +20,6 @@ class Song
     @name = song_info[1]
     song = self.new(@name)
     song.artist = @artist
-    song
   end
   
   def self.all
